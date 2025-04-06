@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster - Professional Task Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1 class="logo">TaskMaster</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Master Your Tasks with Precision</h2>
+            <p>Stay organized and never miss a deadline with our smart reminder system.</p>
+        </section>
+
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Enter your task">
+            <label for="reminderInput">Set Reminder:</label>
+            <input type="datetime-local" id="reminderInput" name="reminder">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+
+        <ul id="taskList" class="task-list"></ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TaskMaster Inc. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

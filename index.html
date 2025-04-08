@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TaskMaster - Professional Task Management</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskMaster | Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1 class="logo">TaskMaster</h1>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Features</a>
-                <a href="#">Pricing</a>
-                <a href="#">Contact</a>
-            </nav>
-        </div>
-    </header>
 
-    <main class="container">
-        <section class="hero">
-            <h2>Master Your Tasks with Precision</h2>
-            <p>Stay organized and never miss a deadline with our smart reminder system.</p>
-        </section>
+  <header class="navbar">
+    <div class="logo">Task<span>Master</span></div>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="features.html">Features</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-        <div class="input-container">
-            <input type="text" id="taskInput" placeholder="Enter your task">
-            <label for="reminderInput">Set Reminder:</label>
-            <input type="datetime-local" id="reminderInput" name="reminder">
-            <button onclick="addTask()">Add Task</button>
-        </div>
+  <section class="hero fade-in">
+    <h1>Organize Your Life with Ease</h1>
+    <p>The smartest to-do list with built-in reminders.</p>
+    <a href="features.html" class="btn">Explore Features</a>
+  </section>
 
-        <ul id="taskList" class="task-list"></ul>
-    </main>
+  <section class="benefits fade-in">
+    <div class="card">
+      <h3>Smart Tasks</h3>
+      <p>Create, edit, and track tasks in seconds.</p>
+    </div>
+    <div class="card">
+      <h3>Custom Reminders</h3>
+      <p>Get notified before it's too late.</p>
+    </div>
+    <div class="card">
+      <h3>Real-Time Sync</h3>
+      <p>Your tasks, everywhere you go.</p>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 TaskMaster Inc. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <footer>
+    <p>&copy; 2025 TaskMaster. Built with focus and coffee.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
+
